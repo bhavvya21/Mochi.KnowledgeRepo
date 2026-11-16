@@ -1,0 +1,10 @@
+.git
+node_modules
+dist
+build-client
+.env
+.env.*
+*.db
+**/__pycache__
+.venv
+docs/screenshots

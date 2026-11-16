@@ -1,0 +1,57 @@
+# Paid CPU services. Review the provider's displayed pricing before provisioning.
+services:
+  - type: web
+    name: mochi-fastapi
+    runtime: docker
+    plan: 1c-2g
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: mochi-rag-db
+          property: connectionString
+      - key: OLLAMA_HOSTNAME
+        fromService:
+          name: mochi-ollama
+          type: pserv
+          property: host
+      - key: OLLAMA_MODEL
+        value: qwen2.5:3b
+      - key: OLLAMA_VISION_MODEL
+        value: qwen2.5vl:3b
+      - key: MOCHI_BRIDGE_KEY
+        generateValue: true
+      - key: PUBLIC_ORIGIN
+        sync: false
+      - key: COOKIE_SECURE
+        value: 'true'
+  - type: pserv
+    name: mochi-ollama
+    runtime: docker
+    plan: 2c-8g
+    region: singapore
+    dockerfilePath: ./deploy/ollama.Dockerfile
+    disk:
+      name: models
+      mountPath: /root/.ollama
+      sizeGB: 20
+    envVars:
+      - key: OLLAMA_HOST
+        value: 0.0.0.0:11434
+      - key: OLLAMA_MODEL
+        value: qwen2.5:3b
+      - key: OLLAMA_VISION_MODEL
+        value: qwen2.5vl:3b
+      - key: OLLAMA_NUM_PARALLEL
+        value: '1'
+      - key: OLLAMA_MAX_LOADED_MODELS
+        value: '1'
+databases:
+  - name: mochi-rag-db
+    region: singapore
+    plan: 0.1c-256mb
+    databaseName: mochi
+    user: mochi
+    ipAllowList: []

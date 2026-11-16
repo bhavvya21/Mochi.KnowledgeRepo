@@ -1,5 +1,6 @@
 import {documents as samples} from '../src/data.js';
 import {retrieve} from '../src/retrieval.js';
+import {pythonBridge} from './python-bridge.js';
 export class HttpError extends Error {constructor(status,message){super(message);this.status=status;}}
 const fail=(status,message)=>{throw new HttpError(status,message)};
 const cookieName='__Host-mochi_session',sessionSeconds=90*24*60*60;
@@ -43,8 +44,10 @@ export async function handleApi(request,env){try{
  if(path==='/api/session'&&request.method==='GET'){
  if(request.headers.get('sec-fetch-site')==='cross-site')fail(403,'Open Mochi directly to initialize your workspace.');
  let cookie;if(!user){const created=await startSession(env);user=created.user;cookie=created.cookie;}
+ if(env.MOCHI_PYTHON_URL){const response=await pythonBridge(request,env,user,()=>loadOwned(env,user.id));if(cookie)response.headers.set('Set-Cookie',cookie);return response;}
  const response=json({user:{email:user.email,label:user.label,kind:user.kind,expiresAt:user.expires||null},storage:!!(env.DB&&env.BUCKET),answerMode:'extractive',limits:{documents:50,charactersPerDocument:100000,totalCharacters:1000000}});if(cookie)response.headers.set('Set-Cookie',cookie);return response;
  }
+ if(env.MOCHI_PYTHON_URL){if(path==='/api/health')return json({status:'ok',backend:'python-bridge'});return await pythonBridge(request,env,user,()=>loadOwned(env,user.id));}
  if(path==='/api/health'&&request.method==='GET')return json({status:'ok',version:2,answerMode:'extractive'});
  if(path==='/api/query'&&request.method==='POST'){
  const input=await body(request,12000);if(typeof input.question!=='string'||!input.question.trim()||input.question.length>2000)fail(400,'Enter a question of 1–2,000 characters.');

@@ -1,0 +1,42 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_DB: mochi
+      POSTGRES_USER: mochi
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}
+    volumes: [postgres_data:/var/lib/postgresql/data]
+    healthcheck:
+      test: [CMD-SHELL, pg_isready -U mochi]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+  ollama:
+    build:
+      context: .
+      dockerfile: deploy/ollama.Dockerfile
+    environment:
+      OLLAMA_HOST: 0.0.0.0:11434
+      OLLAMA_MODEL: qwen2.5:3b
+      OLLAMA_VISION_MODEL: qwen2.5vl:3b
+      OLLAMA_MAX_LOADED_MODELS: 1
+      OLLAMA_NUM_PARALLEL: 1
+    volumes: [ollama_data:/root/.ollama]
+    # No public port: only the API container can reach Ollama.
+  api:
+    build: .
+    ports: ['8000:8000']
+    environment:
+      DATABASE_URL: postgresql+psycopg://mochi:${POSTGRES_PASSWORD}@db/mochi
+      OLLAMA_URL: http://ollama:11434
+      OLLAMA_MODEL: qwen2.5:3b
+      OLLAMA_VISION_MODEL: qwen2.5vl:3b
+      PUBLIC_ORIGIN: ${PUBLIC_ORIGIN:-http://localhost:8000}
+      COOKIE_SECURE: ${COOKIE_SECURE:-false}
+      MOCHI_BRIDGE_KEY: ${MOCHI_BRIDGE_KEY:-}
+    depends_on:
+      db: {condition: service_healthy}
+      ollama: {condition: service_started}
+volumes:
+  postgres_data:
+  ollama_data:

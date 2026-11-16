@@ -8,4 +8,10 @@ __pycache__/
 
 build-client/
 worker/assets.generated.js
+*.db
+*.db-shm
+*.db-wal
+work/
+.cache/
+backend/.venv/
 
