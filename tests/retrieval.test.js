@@ -1,0 +1,12 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {documents,benchmark} from '../src/data.js';
+import {retrieve,compareVendors,runBenchmark,chunkDocuments} from '../src/retrieval.js';
+test('all 180 questions have valid page-level references and known answers',()=>{assert.equal(benchmark.length,180);assert.equal(new Set(benchmark.map(x=>x.question)).size,180);for(const q of benchmark){const p=documents.find(d=>d.id===q.reference.document)?.pages.find(p=>p.page===q.reference.page);assert.ok(p);assert.ok(p.text.includes(q.answer));}});
+test('empty and out of vocabulary queries return no invented result',()=>{assert.deepEqual(retrieve('',documents),[]);assert.deepEqual(retrieve('the and a',documents),[]);assert.deepEqual(retrieve('zzzzxxxyyy',documents),[])});
+test('each retrieval mode finds page-level pricing evidence',()=>{for(const mode of ['hybrid','bm25','tfidf']){const hit=retrieve('Bloom storage overage',documents,{mode})[0];assert.equal(hit.document,'bloom');assert.equal(hit.page,4)}});
+test('collection filtering does not search outside the passed corpus',()=>{const docs=documents.filter(d=>d.collection==='Vendor proposals');for(const r of retrieve('security encryption access review',docs))assert.ok(docs.some(d=>d.id===r.document));});
+test('vendor totals account for implementation, support, storage and renewal',()=>{const rows=compareVendors(documents,2000,1);assert.deepEqual(rows.map(r=>[r.name,r.total]),[['Bloom Systems',27600],['Atlas Cloud',33540],['Cobalt Works',35640]]);assert.equal(compareVendors(documents,2000,3)[0].total,85308.84);});
+test('zero storage never produces a negative storage charge',()=>{assert.ok(compareVendors(documents,0,1).every(r=>r.annualOverage===0))});
+test('chunk strategies preserve document and page provenance',()=>{for(const strategy of ['structure','fixed','sentence']){const chunks=chunkDocuments(documents,strategy);assert.ok(chunks.length>=60);for(const chunk of chunks){assert.ok(documents.find(d=>d.id===chunk.document)?.pages.find(p=>p.page===chunk.page));assert.ok(chunk.text)}}});
+test('benchmark computes ranks rather than hardcoding metrics',()=>{const report=runBenchmark(documents,benchmark);assert.equal(report.count,180);assert.ok(report.recall5>=.9);assert.ok(report.mrr10>=.8);const missing=runBenchmark([],benchmark);assert.equal(missing.recall5,0);assert.equal(missing.mrr10,0);});

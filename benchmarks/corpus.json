@@ -1,0 +1,512 @@
+[
+  {
+    "id": "atlas",
+    "name": "Atlas Cloud · Enterprise proposal",
+    "collection": "Vendor proposals",
+    "type": "PDF",
+    "size": 0.7,
+    "updated": "Sample dataset",
+    "vendor": {
+      "name": "Atlas Cloud",
+      "base": 24000,
+      "setup": 4500,
+      "support": 3600,
+      "storage": 1000,
+      "overage": 0.12,
+      "renewal": 0.07,
+      "color": "#8a75da"
+    },
+    "pages": [
+      {
+        "page": 1,
+        "topic": "Atlas annual subscription",
+        "value": "$24,000",
+        "text": "Atlas Cloud offers an annual subscription of $24,000 for 100 seats. The quote covers the core workspace and standard integrations."
+      },
+      {
+        "page": 2,
+        "topic": "Atlas implementation fee",
+        "value": "$4,500",
+        "text": "A mandatory, one-time implementation fee of $4,500 covers migration, configuration and administrator training. This charge is excluded from the annual subscription."
+      },
+      {
+        "page": 3,
+        "topic": "Atlas premium support",
+        "value": "$3,600",
+        "text": "Premium support costs $3,600 per year and is required for the four-hour response SLA. Standard email support is included without a response-time commitment."
+      },
+      {
+        "page": 4,
+        "topic": "Atlas storage overage",
+        "value": "$0.12 per GB",
+        "text": "Atlas includes 1,000 GB of storage. Additional storage is billed at $0.12 per GB per month. Overage is excluded from the base quote."
+      },
+      {
+        "page": 5,
+        "topic": "Atlas contract renewal",
+        "value": "7%",
+        "text": "Atlas may increase subscription prices by 7% at annual renewal. Cancellation requires written notice at least 60 days before renewal."
+      }
+    ]
+  },
+  {
+    "id": "bloom",
+    "name": "Bloom Systems · Business proposal",
+    "collection": "Vendor proposals",
+    "type": "PDF",
+    "size": 0.6,
+    "updated": "Sample dataset",
+    "vendor": {
+      "name": "Bloom Systems",
+      "base": 27600,
+      "setup": 0,
+      "support": 0,
+      "storage": 2000,
+      "overage": 0.08,
+      "renewal": 0.03,
+      "color": "#59aa91"
+    },
+    "pages": [
+      {
+        "page": 1,
+        "topic": "Bloom annual subscription",
+        "value": "$27,600",
+        "text": "Bloom Systems charges $27,600 annually for 100 seats. The subscription includes all standard connectors and audit logs."
+      },
+      {
+        "page": 2,
+        "topic": "Bloom implementation fee",
+        "value": "$0",
+        "text": "Bloom includes implementation and migration at no extra cost. The one-time implementation fee is $0."
+      },
+      {
+        "page": 3,
+        "topic": "Bloom premium support",
+        "value": "$0",
+        "text": "Bloom includes 24/7 premium support with a four-hour response SLA in its subscription. The additional annual support charge is $0."
+      },
+      {
+        "page": 4,
+        "topic": "Bloom storage overage",
+        "value": "$0.08 per GB",
+        "text": "Bloom includes 2,000 GB of storage. Additional usage is charged at $0.08 per GB per month. Data export is included."
+      },
+      {
+        "page": 5,
+        "topic": "Bloom contract renewal",
+        "value": "3%",
+        "text": "Bloom caps annual subscription increases at 3%. Customers may cancel with 30 days of written notice before renewal."
+      }
+    ]
+  },
+  {
+    "id": "cobalt",
+    "name": "Cobalt Works · Growth proposal",
+    "collection": "Vendor proposals",
+    "type": "PDF",
+    "size": 0.7,
+    "updated": "Sample dataset",
+    "vendor": {
+      "name": "Cobalt Works",
+      "base": 21600,
+      "setup": 6000,
+      "support": 4800,
+      "storage": 500,
+      "overage": 0.18,
+      "renewal": 0.1,
+      "color": "#dd9b62"
+    },
+    "pages": [
+      {
+        "page": 1,
+        "topic": "Cobalt annual subscription",
+        "value": "$21,600",
+        "text": "Cobalt Works charges an annual base subscription of $21,600 for 100 seats. Custom integrations are quoted separately."
+      },
+      {
+        "page": 2,
+        "topic": "Cobalt implementation fee",
+        "value": "$6,000",
+        "text": "Cobalt requires a one-time implementation fee of $6,000 for migration and provisioning. This fee is not included in the advertised subscription."
+      },
+      {
+        "page": 3,
+        "topic": "Cobalt premium support",
+        "value": "$4,800",
+        "text": "Cobalt premium support costs $4,800 per year for a four-hour response SLA. Standard support has a two-business-day response target."
+      },
+      {
+        "page": 4,
+        "topic": "Cobalt storage overage",
+        "value": "$0.18 per GB",
+        "text": "Cobalt includes 500 GB of storage. Additional storage is charged at $0.18 per GB per month. A termination data export costs $750, excluded from ongoing operating cost."
+      },
+      {
+        "page": 5,
+        "topic": "Cobalt contract renewal",
+        "value": "10%",
+        "text": "Cobalt may raise subscription prices by 10% at renewal. The contract automatically renews unless cancellation is received 90 days in advance."
+      }
+    ]
+  },
+  {
+    "id": "security",
+    "name": "Security & data handling policy",
+    "collection": "Company knowledge",
+    "type": "PDF",
+    "size": 0.4,
+    "updated": "Sample dataset",
+    "pages": [
+      {
+        "page": 1,
+        "topic": "Security encryption at rest",
+        "value": "AES-256",
+        "text": "The security policy requires AES-256 encryption at rest for all customer records and backups."
+      },
+      {
+        "page": 2,
+        "topic": "Security encryption in transit",
+        "value": "TLS 1.2",
+        "text": "The minimum transport encryption version is TLS 1.2. Legacy protocols must be disabled."
+      },
+      {
+        "page": 3,
+        "topic": "Security access review",
+        "value": "90 days",
+        "text": "Security administrators review employee access every 90 days and revoke inactive grants."
+      },
+      {
+        "page": 4,
+        "topic": "Security incident reporting",
+        "value": "1 hour",
+        "text": "Suspected security incidents must be reported to the security team within 1 hour of discovery."
+      },
+      {
+        "page": 5,
+        "topic": "Security backup retention",
+        "value": "35 days",
+        "text": "Encrypted daily backups are retained for 35 days. Restoration drills take place quarterly."
+      }
+    ]
+  },
+  {
+    "id": "onboarding",
+    "name": "The new teammate handbook",
+    "collection": "Company knowledge",
+    "type": "PDF",
+    "size": 0.4,
+    "updated": "Sample dataset",
+    "pages": [
+      {
+        "page": 1,
+        "topic": "Onboarding buddy program",
+        "value": "30 days",
+        "text": "Every new teammate receives an onboarding buddy for the first 30 days."
+      },
+      {
+        "page": 2,
+        "topic": "Onboarding equipment budget",
+        "value": "$1,500",
+        "text": "The onboarding equipment budget is $1,500 per new employee, subject to manager approval."
+      },
+      {
+        "page": 3,
+        "topic": "Onboarding orientation",
+        "value": "Monday",
+        "text": "New teammate orientation takes place every Monday at 10:00 in the company timezone."
+      },
+      {
+        "page": 4,
+        "topic": "Onboarding probation review",
+        "value": "90 days",
+        "text": "The probation review is scheduled after 90 days of employment."
+      },
+      {
+        "page": 5,
+        "topic": "Onboarding mandatory training",
+        "value": "14 days",
+        "text": "Security and privacy training must be completed within 14 days of joining."
+      }
+    ]
+  },
+  {
+    "id": "expenses",
+    "name": "Travel & expense guidelines",
+    "collection": "Company knowledge",
+    "type": "PDF",
+    "size": 0.4,
+    "updated": "Sample dataset",
+    "pages": [
+      {
+        "page": 1,
+        "topic": "Expenses meal allowance",
+        "value": "$65",
+        "text": "The daily meal allowance for business travel is $65. Itemized receipts are required."
+      },
+      {
+        "page": 2,
+        "topic": "Expenses hotel limit",
+        "value": "$220",
+        "text": "The standard hotel reimbursement limit is $220 per night, before applicable taxes."
+      },
+      {
+        "page": 3,
+        "topic": "Expenses submission deadline",
+        "value": "30 days",
+        "text": "Travel expense claims must be submitted within 30 days of the trip ending."
+      },
+      {
+        "page": 4,
+        "topic": "Expenses approval threshold",
+        "value": "$500",
+        "text": "Single expense claims over $500 require department head approval."
+      },
+      {
+        "page": 5,
+        "topic": "Expenses reimbursement cycle",
+        "value": "14 days",
+        "text": "Approved expense claims are reimbursed within 14 days of final approval."
+      }
+    ]
+  },
+  {
+    "id": "roadmap",
+    "name": "Product roadmap · Q4 2026",
+    "collection": "Product & engineering",
+    "type": "XLSX",
+    "size": 0.4,
+    "updated": "Sample dataset",
+    "pages": [
+      {
+        "page": 1,
+        "topic": "Roadmap search launch",
+        "value": "November 20",
+        "text": "The internal search beta is scheduled for November 20, 2026. This is a planning date, not a delivery guarantee."
+      },
+      {
+        "page": 2,
+        "topic": "Roadmap mobile pilot",
+        "value": "December 5",
+        "text": "The mobile pilot is planned for December 5, 2026, with 50 internal participants."
+      },
+      {
+        "page": 3,
+        "topic": "Roadmap accessibility target",
+        "value": "WCAG 2.2 AA",
+        "text": "The product roadmap sets WCAG 2.2 AA as the accessibility target for new interfaces."
+      },
+      {
+        "page": 4,
+        "topic": "Roadmap engineering capacity",
+        "value": "24 engineer-weeks",
+        "text": "The Q4 search initiative has an allocated capacity of 24 engineer-weeks."
+      },
+      {
+        "page": 5,
+        "topic": "Roadmap beta cohort",
+        "value": "150 users",
+        "text": "The search beta cohort is limited to 150 users during the first rollout."
+      }
+    ]
+  },
+  {
+    "id": "api",
+    "name": "API integration field guide",
+    "collection": "Product & engineering",
+    "type": "PDF",
+    "size": 0.4,
+    "updated": "Sample dataset",
+    "pages": [
+      {
+        "page": 1,
+        "topic": "API rate limit",
+        "value": "120 requests per minute",
+        "text": "The standard API rate limit is 120 requests per minute per authenticated workspace."
+      },
+      {
+        "page": 2,
+        "topic": "API timeout",
+        "value": "30 seconds",
+        "text": "API clients should use a request timeout of 30 seconds and retry transient failures with jitter."
+      },
+      {
+        "page": 3,
+        "topic": "API webhook retries",
+        "value": "5 attempts",
+        "text": "Failed webhook deliveries are retried for up to 5 attempts with exponential backoff."
+      },
+      {
+        "page": 4,
+        "topic": "API maximum payload",
+        "value": "10 MB",
+        "text": "The maximum JSON API request payload is 10 MB. Large files use the upload endpoint."
+      },
+      {
+        "page": 5,
+        "topic": "API token rotation",
+        "value": "60 days",
+        "text": "Production service tokens must be rotated every 60 days. Never place tokens in browser code."
+      }
+    ]
+  },
+  {
+    "id": "architecture",
+    "name": "Search platform · Architecture notes",
+    "collection": "Product & engineering",
+    "type": "IMAGE",
+    "size": 0.4,
+    "updated": "Sample dataset",
+    "pages": [
+      {
+        "page": 1,
+        "topic": "Architecture vector dimensions",
+        "value": "384",
+        "text": "The proposed search platform uses 384-dimensional embeddings for its baseline vector index."
+      },
+      {
+        "page": 2,
+        "topic": "Architecture chunk overlap",
+        "value": "80 tokens",
+        "text": "The baseline chunking strategy uses an overlap of 80 tokens between adjacent chunks."
+      },
+      {
+        "page": 3,
+        "topic": "Architecture reranking pool",
+        "value": "30 candidates",
+        "text": "The reranker receives the top 30 candidates after reciprocal rank fusion."
+      },
+      {
+        "page": 4,
+        "topic": "Architecture retrieval count",
+        "value": "5 passages",
+        "text": "The answer context includes up to 5 passages after relevance and permission filtering."
+      },
+      {
+        "page": 5,
+        "topic": "Architecture ingestion queue",
+        "value": "4 workers",
+        "text": "The initial ingestion deployment allocates 4 workers for document processing."
+      }
+    ]
+  },
+  {
+    "id": "operations",
+    "name": "Customer operations playbook",
+    "collection": "Company knowledge",
+    "type": "PDF",
+    "size": 0.4,
+    "updated": "Sample dataset",
+    "pages": [
+      {
+        "page": 1,
+        "topic": "Operations critical response",
+        "value": "15 minutes",
+        "text": "Critical customer incidents have a first-response target of 15 minutes during staffed hours."
+      },
+      {
+        "page": 2,
+        "topic": "Operations escalation window",
+        "value": "2 hours",
+        "text": "Unresolved high-priority incidents escalate to the incident commander after 2 hours."
+      },
+      {
+        "page": 3,
+        "topic": "Operations satisfaction target",
+        "value": "92%",
+        "text": "The customer satisfaction target is 92% positive responses. This is a target, not a measured result."
+      },
+      {
+        "page": 4,
+        "topic": "Operations handoff time",
+        "value": "09:00 UTC",
+        "text": "The daily support handoff takes place at 09:00 UTC using the shared incident log."
+      },
+      {
+        "page": 5,
+        "topic": "Operations review cadence",
+        "value": "weekly",
+        "text": "The operations team reviews recurring incidents weekly and assigns remediation owners."
+      }
+    ]
+  },
+  {
+    "id": "finance",
+    "name": "Finance snapshot · Q3 2026",
+    "collection": "Reports & insights",
+    "type": "XLSX",
+    "size": 0.4,
+    "updated": "Sample dataset",
+    "pages": [
+      {
+        "page": 1,
+        "topic": "Finance quarterly revenue",
+        "value": "$2,400,000",
+        "text": "The synthetic Q3 2026 finance snapshot records quarterly revenue of $2,400,000."
+      },
+      {
+        "page": 2,
+        "topic": "Finance operating expenses",
+        "value": "$1,680,000",
+        "text": "The synthetic Q3 2026 snapshot records total operating expenses of $1,680,000."
+      },
+      {
+        "page": 3,
+        "topic": "Finance gross margin",
+        "value": "72%",
+        "text": "The synthetic Q3 2026 snapshot reports a gross margin of 72%."
+      },
+      {
+        "page": 4,
+        "topic": "Finance cash runway",
+        "value": "18 months",
+        "text": "The synthetic Q3 2026 forecast estimates a cash runway of 18 months at current burn."
+      },
+      {
+        "page": 5,
+        "topic": "Finance budget variance",
+        "value": "4%",
+        "text": "The synthetic Q3 2026 operating expense variance is 4% above budget."
+      }
+    ]
+  },
+  {
+    "id": "research",
+    "name": "Customer research · Search habits",
+    "collection": "Reports & insights",
+    "type": "PDF",
+    "size": 0.4,
+    "updated": "Sample dataset",
+    "pages": [
+      {
+        "page": 1,
+        "topic": "Research participant count",
+        "value": "24 participants",
+        "text": "The synthetic search research study included 24 participants from four departments."
+      },
+      {
+        "page": 2,
+        "topic": "Research interview duration",
+        "value": "45 minutes",
+        "text": "Each customer research interview lasted approximately 45 minutes."
+      },
+      {
+        "page": 3,
+        "topic": "Research source preference",
+        "value": "83%",
+        "text": "In the synthetic study, 83% of participants preferred answers with direct source references."
+      },
+      {
+        "page": 4,
+        "topic": "Research search frequency",
+        "value": "8 searches per day",
+        "text": "The synthetic study found a median search frequency of 8 searches per day."
+      },
+      {
+        "page": 5,
+        "topic": "Research primary pain point",
+        "value": "fragmented knowledge",
+        "text": "The most frequently mentioned pain point was fragmented knowledge across disconnected tools."
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "name": "mochi-knowledge",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build --outDir build-client && node scripts/build-backend.mjs",
+    "test": "node --test tests/*.test.js",
+    "db:generate": "drizzle-kit generate"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "lucide-react": "^0.468.0",
+    "pdfjs-dist": "^4.10.38",
+    "tesseract.js": "^6.0.1",
+    "exceljs": "^4.4.0",
+    "papaparse": "^5.5.3",
+    "drizzle-orm": "^0.45.2"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0",
+    "drizzle-kit": "^0.31.10"
+  }
+}

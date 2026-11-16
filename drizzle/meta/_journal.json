@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1794803142338,
+      "tag": "0000_clean_punisher",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1794810707623,
+      "tag": "0001_clammy_fabian_cortez",
+      "breakpoints": true
+    }
+  ]
+}

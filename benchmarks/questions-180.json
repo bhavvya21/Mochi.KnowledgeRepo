@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "atlas-1-0",
+    "question": "What is the atlas annual subscription?",
+    "answer": "$24,000",
+    "reference": {
+      "document": "atlas",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "atlas-1-1",
+    "question": "Find the documented atlas annual subscription and cite the source.",
+    "answer": "$24,000",
+    "reference": {
+      "document": "atlas",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "atlas-1-2",
+    "question": "According to the documents, tell me about atlas annual subscription.",
+    "answer": "$24,000",
+    "reference": {
+      "document": "atlas",
+      "page": 1
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "atlas-2-0",
+    "question": "What is the atlas implementation fee?",
+    "answer": "$4,500",
+    "reference": {
+      "document": "atlas",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "atlas-2-1",
+    "question": "Find the documented atlas implementation fee and cite the source.",
+    "answer": "$4,500",
+    "reference": {
+      "document": "atlas",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "atlas-2-2",
+    "question": "According to the documents, tell me about atlas implementation fee.",
+    "answer": "$4,500",
+    "reference": {
+      "document": "atlas",
+      "page": 2
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "atlas-3-0",
+    "question": "What is the atlas premium support?",
+    "answer": "$3,600",
+    "reference": {
+      "document": "atlas",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "atlas-3-1",
+    "question": "Find the documented atlas premium support and cite the source.",
+    "answer": "$3,600",
+    "reference": {
+      "document": "atlas",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "atlas-3-2",
+    "question": "According to the documents, tell me about atlas premium support.",
+    "answer": "$3,600",
+    "reference": {
+      "document": "atlas",
+      "page": 3
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "atlas-4-0",
+    "question": "What is the atlas storage overage?",
+    "answer": "$0.12 per GB",
+    "reference": {
+      "document": "atlas",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "atlas-4-1",
+    "question": "Find the documented atlas storage overage and cite the source.",
+    "answer": "$0.12 per GB",
+    "reference": {
+      "document": "atlas",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "atlas-4-2",
+    "question": "According to the documents, tell me about atlas storage overage.",
+    "answer": "$0.12 per GB",
+    "reference": {
+      "document": "atlas",
+      "page": 4
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "atlas-5-0",
+    "question": "What is the atlas contract renewal?",
+    "answer": "7%",
+    "reference": {
+      "document": "atlas",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "atlas-5-1",
+    "question": "Find the documented atlas contract renewal and cite the source.",
+    "answer": "7%",
+    "reference": {
+      "document": "atlas",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "atlas-5-2",
+    "question": "According to the documents, tell me about atlas contract renewal.",
+    "answer": "7%",
+    "reference": {
+      "document": "atlas",
+      "page": 5
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "bloom-1-0",
+    "question": "What is the bloom annual subscription?",
+    "answer": "$27,600",
+    "reference": {
+      "document": "bloom",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "bloom-1-1",
+    "question": "Find the documented bloom annual subscription and cite the source.",
+    "answer": "$27,600",
+    "reference": {
+      "document": "bloom",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "bloom-1-2",
+    "question": "According to the documents, tell me about bloom annual subscription.",
+    "answer": "$27,600",
+    "reference": {
+      "document": "bloom",
+      "page": 1
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "bloom-2-0",
+    "question": "What is the bloom implementation fee?",
+    "answer": "$0",
+    "reference": {
+      "document": "bloom",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "bloom-2-1",
+    "question": "Find the documented bloom implementation fee and cite the source.",
+    "answer": "$0",
+    "reference": {
+      "document": "bloom",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "bloom-2-2",
+    "question": "According to the documents, tell me about bloom implementation fee.",
+    "answer": "$0",
+    "reference": {
+      "document": "bloom",
+      "page": 2
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "bloom-3-0",
+    "question": "What is the bloom premium support?",
+    "answer": "$0",
+    "reference": {
+      "document": "bloom",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "bloom-3-1",
+    "question": "Find the documented bloom premium support and cite the source.",
+    "answer": "$0",
+    "reference": {
+      "document": "bloom",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "bloom-3-2",
+    "question": "According to the documents, tell me about bloom premium support.",
+    "answer": "$0",
+    "reference": {
+      "document": "bloom",
+      "page": 3
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "bloom-4-0",
+    "question": "What is the bloom storage overage?",
+    "answer": "$0.08 per GB",
+    "reference": {
+      "document": "bloom",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "bloom-4-1",
+    "question": "Find the documented bloom storage overage and cite the source.",
+    "answer": "$0.08 per GB",
+    "reference": {
+      "document": "bloom",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "bloom-4-2",
+    "question": "According to the documents, tell me about bloom storage overage.",
+    "answer": "$0.08 per GB",
+    "reference": {
+      "document": "bloom",
+      "page": 4
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "bloom-5-0",
+    "question": "What is the bloom contract renewal?",
+    "answer": "3%",
+    "reference": {
+      "document": "bloom",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "bloom-5-1",
+    "question": "Find the documented bloom contract renewal and cite the source.",
+    "answer": "3%",
+    "reference": {
+      "document": "bloom",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "bloom-5-2",
+    "question": "According to the documents, tell me about bloom contract renewal.",
+    "answer": "3%",
+    "reference": {
+      "document": "bloom",
+      "page": 5
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "cobalt-1-0",
+    "question": "What is the cobalt annual subscription?",
+    "answer": "$21,600",
+    "reference": {
+      "document": "cobalt",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "cobalt-1-1",
+    "question": "Find the documented cobalt annual subscription and cite the source.",
+    "answer": "$21,600",
+    "reference": {
+      "document": "cobalt",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "cobalt-1-2",
+    "question": "According to the documents, tell me about cobalt annual subscription.",
+    "answer": "$21,600",
+    "reference": {
+      "document": "cobalt",
+      "page": 1
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "cobalt-2-0",
+    "question": "What is the cobalt implementation fee?",
+    "answer": "$6,000",
+    "reference": {
+      "document": "cobalt",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "cobalt-2-1",
+    "question": "Find the documented cobalt implementation fee and cite the source.",
+    "answer": "$6,000",
+    "reference": {
+      "document": "cobalt",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "cobalt-2-2",
+    "question": "According to the documents, tell me about cobalt implementation fee.",
+    "answer": "$6,000",
+    "reference": {
+      "document": "cobalt",
+      "page": 2
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "cobalt-3-0",
+    "question": "What is the cobalt premium support?",
+    "answer": "$4,800",
+    "reference": {
+      "document": "cobalt",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "cobalt-3-1",
+    "question": "Find the documented cobalt premium support and cite the source.",
+    "answer": "$4,800",
+    "reference": {
+      "document": "cobalt",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "cobalt-3-2",
+    "question": "According to the documents, tell me about cobalt premium support.",
+    "answer": "$4,800",
+    "reference": {
+      "document": "cobalt",
+      "page": 3
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "cobalt-4-0",
+    "question": "What is the cobalt storage overage?",
+    "answer": "$0.18 per GB",
+    "reference": {
+      "document": "cobalt",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "cobalt-4-1",
+    "question": "Find the documented cobalt storage overage and cite the source.",
+    "answer": "$0.18 per GB",
+    "reference": {
+      "document": "cobalt",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "cobalt-4-2",
+    "question": "According to the documents, tell me about cobalt storage overage.",
+    "answer": "$0.18 per GB",
+    "reference": {
+      "document": "cobalt",
+      "page": 4
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "cobalt-5-0",
+    "question": "What is the cobalt contract renewal?",
+    "answer": "10%",
+    "reference": {
+      "document": "cobalt",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "cobalt-5-1",
+    "question": "Find the documented cobalt contract renewal and cite the source.",
+    "answer": "10%",
+    "reference": {
+      "document": "cobalt",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "cobalt-5-2",
+    "question": "According to the documents, tell me about cobalt contract renewal.",
+    "answer": "10%",
+    "reference": {
+      "document": "cobalt",
+      "page": 5
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "security-1-0",
+    "question": "What is the security encryption at rest?",
+    "answer": "AES-256",
+    "reference": {
+      "document": "security",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "security-1-1",
+    "question": "Find the documented security encryption at rest and cite the source.",
+    "answer": "AES-256",
+    "reference": {
+      "document": "security",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "security-1-2",
+    "question": "According to the documents, tell me about security encryption at rest.",
+    "answer": "AES-256",
+    "reference": {
+      "document": "security",
+      "page": 1
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "security-2-0",
+    "question": "What is the security encryption in transit?",
+    "answer": "TLS 1.2",
+    "reference": {
+      "document": "security",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "security-2-1",
+    "question": "Find the documented security encryption in transit and cite the source.",
+    "answer": "TLS 1.2",
+    "reference": {
+      "document": "security",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "security-2-2",
+    "question": "According to the documents, tell me about security encryption in transit.",
+    "answer": "TLS 1.2",
+    "reference": {
+      "document": "security",
+      "page": 2
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "security-3-0",
+    "question": "What is the security access review?",
+    "answer": "90 days",
+    "reference": {
+      "document": "security",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "security-3-1",
+    "question": "Find the documented security access review and cite the source.",
+    "answer": "90 days",
+    "reference": {
+      "document": "security",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "security-3-2",
+    "question": "According to the documents, tell me about security access review.",
+    "answer": "90 days",
+    "reference": {
+      "document": "security",
+      "page": 3
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "security-4-0",
+    "question": "What is the security incident reporting?",
+    "answer": "1 hour",
+    "reference": {
+      "document": "security",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "security-4-1",
+    "question": "Find the documented security incident reporting and cite the source.",
+    "answer": "1 hour",
+    "reference": {
+      "document": "security",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "security-4-2",
+    "question": "According to the documents, tell me about security incident reporting.",
+    "answer": "1 hour",
+    "reference": {
+      "document": "security",
+      "page": 4
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "security-5-0",
+    "question": "What is the security backup retention?",
+    "answer": "35 days",
+    "reference": {
+      "document": "security",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "security-5-1",
+    "question": "Find the documented security backup retention and cite the source.",
+    "answer": "35 days",
+    "reference": {
+      "document": "security",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "security-5-2",
+    "question": "According to the documents, tell me about security backup retention.",
+    "answer": "35 days",
+    "reference": {
+      "document": "security",
+      "page": 5
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "onboarding-1-0",
+    "question": "What is the onboarding buddy program?",
+    "answer": "30 days",
+    "reference": {
+      "document": "onboarding",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "onboarding-1-1",
+    "question": "Find the documented onboarding buddy program and cite the source.",
+    "answer": "30 days",
+    "reference": {
+      "document": "onboarding",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "onboarding-1-2",
+    "question": "According to the documents, tell me about onboarding buddy program.",
+    "answer": "30 days",
+    "reference": {
+      "document": "onboarding",
+      "page": 1
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "onboarding-2-0",
+    "question": "What is the onboarding equipment budget?",
+    "answer": "$1,500",
+    "reference": {
+      "document": "onboarding",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "onboarding-2-1",
+    "question": "Find the documented onboarding equipment budget and cite the source.",
+    "answer": "$1,500",
+    "reference": {
+      "document": "onboarding",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "onboarding-2-2",
+    "question": "According to the documents, tell me about onboarding equipment budget.",
+    "answer": "$1,500",
+    "reference": {
+      "document": "onboarding",
+      "page": 2
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "onboarding-3-0",
+    "question": "What is the onboarding orientation?",
+    "answer": "Monday",
+    "reference": {
+      "document": "onboarding",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "onboarding-3-1",
+    "question": "Find the documented onboarding orientation and cite the source.",
+    "answer": "Monday",
+    "reference": {
+      "document": "onboarding",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "onboarding-3-2",
+    "question": "According to the documents, tell me about onboarding orientation.",
+    "answer": "Monday",
+    "reference": {
+      "document": "onboarding",
+      "page": 3
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "onboarding-4-0",
+    "question": "What is the onboarding probation review?",
+    "answer": "90 days",
+    "reference": {
+      "document": "onboarding",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "onboarding-4-1",
+    "question": "Find the documented onboarding probation review and cite the source.",
+    "answer": "90 days",
+    "reference": {
+      "document": "onboarding",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "onboarding-4-2",
+    "question": "According to the documents, tell me about onboarding probation review.",
+    "answer": "90 days",
+    "reference": {
+      "document": "onboarding",
+      "page": 4
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "onboarding-5-0",
+    "question": "What is the onboarding mandatory training?",
+    "answer": "14 days",
+    "reference": {
+      "document": "onboarding",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "onboarding-5-1",
+    "question": "Find the documented onboarding mandatory training and cite the source.",
+    "answer": "14 days",
+    "reference": {
+      "document": "onboarding",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "onboarding-5-2",
+    "question": "According to the documents, tell me about onboarding mandatory training.",
+    "answer": "14 days",
+    "reference": {
+      "document": "onboarding",
+      "page": 5
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "expenses-1-0",
+    "question": "What is the expenses meal allowance?",
+    "answer": "$65",
+    "reference": {
+      "document": "expenses",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "expenses-1-1",
+    "question": "Find the documented expenses meal allowance and cite the source.",
+    "answer": "$65",
+    "reference": {
+      "document": "expenses",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "expenses-1-2",
+    "question": "According to the documents, tell me about expenses meal allowance.",
+    "answer": "$65",
+    "reference": {
+      "document": "expenses",
+      "page": 1
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "expenses-2-0",
+    "question": "What is the expenses hotel limit?",
+    "answer": "$220",
+    "reference": {
+      "document": "expenses",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "expenses-2-1",
+    "question": "Find the documented expenses hotel limit and cite the source.",
+    "answer": "$220",
+    "reference": {
+      "document": "expenses",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "expenses-2-2",
+    "question": "According to the documents, tell me about expenses hotel limit.",
+    "answer": "$220",
+    "reference": {
+      "document": "expenses",
+      "page": 2
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "expenses-3-0",
+    "question": "What is the expenses submission deadline?",
+    "answer": "30 days",
+    "reference": {
+      "document": "expenses",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "expenses-3-1",
+    "question": "Find the documented expenses submission deadline and cite the source.",
+    "answer": "30 days",
+    "reference": {
+      "document": "expenses",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "expenses-3-2",
+    "question": "According to the documents, tell me about expenses submission deadline.",
+    "answer": "30 days",
+    "reference": {
+      "document": "expenses",
+      "page": 3
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "expenses-4-0",
+    "question": "What is the expenses approval threshold?",
+    "answer": "$500",
+    "reference": {
+      "document": "expenses",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "expenses-4-1",
+    "question": "Find the documented expenses approval threshold and cite the source.",
+    "answer": "$500",
+    "reference": {
+      "document": "expenses",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "expenses-4-2",
+    "question": "According to the documents, tell me about expenses approval threshold.",
+    "answer": "$500",
+    "reference": {
+      "document": "expenses",
+      "page": 4
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "expenses-5-0",
+    "question": "What is the expenses reimbursement cycle?",
+    "answer": "14 days",
+    "reference": {
+      "document": "expenses",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "expenses-5-1",
+    "question": "Find the documented expenses reimbursement cycle and cite the source.",
+    "answer": "14 days",
+    "reference": {
+      "document": "expenses",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "expenses-5-2",
+    "question": "According to the documents, tell me about expenses reimbursement cycle.",
+    "answer": "14 days",
+    "reference": {
+      "document": "expenses",
+      "page": 5
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "roadmap-1-0",
+    "question": "What is the roadmap search launch?",
+    "answer": "November 20",
+    "reference": {
+      "document": "roadmap",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "roadmap-1-1",
+    "question": "Find the documented roadmap search launch and cite the source.",
+    "answer": "November 20",
+    "reference": {
+      "document": "roadmap",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "roadmap-1-2",
+    "question": "According to the documents, tell me about roadmap search launch.",
+    "answer": "November 20",
+    "reference": {
+      "document": "roadmap",
+      "page": 1
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "roadmap-2-0",
+    "question": "What is the roadmap mobile pilot?",
+    "answer": "December 5",
+    "reference": {
+      "document": "roadmap",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "roadmap-2-1",
+    "question": "Find the documented roadmap mobile pilot and cite the source.",
+    "answer": "December 5",
+    "reference": {
+      "document": "roadmap",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "roadmap-2-2",
+    "question": "According to the documents, tell me about roadmap mobile pilot.",
+    "answer": "December 5",
+    "reference": {
+      "document": "roadmap",
+      "page": 2
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "roadmap-3-0",
+    "question": "What is the roadmap accessibility target?",
+    "answer": "WCAG 2.2 AA",
+    "reference": {
+      "document": "roadmap",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "roadmap-3-1",
+    "question": "Find the documented roadmap accessibility target and cite the source.",
+    "answer": "WCAG 2.2 AA",
+    "reference": {
+      "document": "roadmap",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "roadmap-3-2",
+    "question": "According to the documents, tell me about roadmap accessibility target.",
+    "answer": "WCAG 2.2 AA",
+    "reference": {
+      "document": "roadmap",
+      "page": 3
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "roadmap-4-0",
+    "question": "What is the roadmap engineering capacity?",
+    "answer": "24 engineer-weeks",
+    "reference": {
+      "document": "roadmap",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "roadmap-4-1",
+    "question": "Find the documented roadmap engineering capacity and cite the source.",
+    "answer": "24 engineer-weeks",
+    "reference": {
+      "document": "roadmap",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "roadmap-4-2",
+    "question": "According to the documents, tell me about roadmap engineering capacity.",
+    "answer": "24 engineer-weeks",
+    "reference": {
+      "document": "roadmap",
+      "page": 4
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "roadmap-5-0",
+    "question": "What is the roadmap beta cohort?",
+    "answer": "150 users",
+    "reference": {
+      "document": "roadmap",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "roadmap-5-1",
+    "question": "Find the documented roadmap beta cohort and cite the source.",
+    "answer": "150 users",
+    "reference": {
+      "document": "roadmap",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "roadmap-5-2",
+    "question": "According to the documents, tell me about roadmap beta cohort.",
+    "answer": "150 users",
+    "reference": {
+      "document": "roadmap",
+      "page": 5
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "api-1-0",
+    "question": "What is the api rate limit?",
+    "answer": "120 requests per minute",
+    "reference": {
+      "document": "api",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "api-1-1",
+    "question": "Find the documented api rate limit and cite the source.",
+    "answer": "120 requests per minute",
+    "reference": {
+      "document": "api",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "api-1-2",
+    "question": "According to the documents, tell me about api rate limit.",
+    "answer": "120 requests per minute",
+    "reference": {
+      "document": "api",
+      "page": 1
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "api-2-0",
+    "question": "What is the api timeout?",
+    "answer": "30 seconds",
+    "reference": {
+      "document": "api",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "api-2-1",
+    "question": "Find the documented api timeout and cite the source.",
+    "answer": "30 seconds",
+    "reference": {
+      "document": "api",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "api-2-2",
+    "question": "According to the documents, tell me about api timeout.",
+    "answer": "30 seconds",
+    "reference": {
+      "document": "api",
+      "page": 2
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "api-3-0",
+    "question": "What is the api webhook retries?",
+    "answer": "5 attempts",
+    "reference": {
+      "document": "api",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "api-3-1",
+    "question": "Find the documented api webhook retries and cite the source.",
+    "answer": "5 attempts",
+    "reference": {
+      "document": "api",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "api-3-2",
+    "question": "According to the documents, tell me about api webhook retries.",
+    "answer": "5 attempts",
+    "reference": {
+      "document": "api",
+      "page": 3
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "api-4-0",
+    "question": "What is the api maximum payload?",
+    "answer": "10 MB",
+    "reference": {
+      "document": "api",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "api-4-1",
+    "question": "Find the documented api maximum payload and cite the source.",
+    "answer": "10 MB",
+    "reference": {
+      "document": "api",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "api-4-2",
+    "question": "According to the documents, tell me about api maximum payload.",
+    "answer": "10 MB",
+    "reference": {
+      "document": "api",
+      "page": 4
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "api-5-0",
+    "question": "What is the api token rotation?",
+    "answer": "60 days",
+    "reference": {
+      "document": "api",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "api-5-1",
+    "question": "Find the documented api token rotation and cite the source.",
+    "answer": "60 days",
+    "reference": {
+      "document": "api",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "api-5-2",
+    "question": "According to the documents, tell me about api token rotation.",
+    "answer": "60 days",
+    "reference": {
+      "document": "api",
+      "page": 5
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "architecture-1-0",
+    "question": "What is the architecture vector dimensions?",
+    "answer": "384",
+    "reference": {
+      "document": "architecture",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "architecture-1-1",
+    "question": "Find the documented architecture vector dimensions and cite the source.",
+    "answer": "384",
+    "reference": {
+      "document": "architecture",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "architecture-1-2",
+    "question": "According to the documents, tell me about architecture vector dimensions.",
+    "answer": "384",
+    "reference": {
+      "document": "architecture",
+      "page": 1
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "architecture-2-0",
+    "question": "What is the architecture chunk overlap?",
+    "answer": "80 tokens",
+    "reference": {
+      "document": "architecture",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "architecture-2-1",
+    "question": "Find the documented architecture chunk overlap and cite the source.",
+    "answer": "80 tokens",
+    "reference": {
+      "document": "architecture",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "architecture-2-2",
+    "question": "According to the documents, tell me about architecture chunk overlap.",
+    "answer": "80 tokens",
+    "reference": {
+      "document": "architecture",
+      "page": 2
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "architecture-3-0",
+    "question": "What is the architecture reranking pool?",
+    "answer": "30 candidates",
+    "reference": {
+      "document": "architecture",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "architecture-3-1",
+    "question": "Find the documented architecture reranking pool and cite the source.",
+    "answer": "30 candidates",
+    "reference": {
+      "document": "architecture",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "architecture-3-2",
+    "question": "According to the documents, tell me about architecture reranking pool.",
+    "answer": "30 candidates",
+    "reference": {
+      "document": "architecture",
+      "page": 3
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "architecture-4-0",
+    "question": "What is the architecture retrieval count?",
+    "answer": "5 passages",
+    "reference": {
+      "document": "architecture",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "architecture-4-1",
+    "question": "Find the documented architecture retrieval count and cite the source.",
+    "answer": "5 passages",
+    "reference": {
+      "document": "architecture",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "architecture-4-2",
+    "question": "According to the documents, tell me about architecture retrieval count.",
+    "answer": "5 passages",
+    "reference": {
+      "document": "architecture",
+      "page": 4
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "architecture-5-0",
+    "question": "What is the architecture ingestion queue?",
+    "answer": "4 workers",
+    "reference": {
+      "document": "architecture",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "architecture-5-1",
+    "question": "Find the documented architecture ingestion queue and cite the source.",
+    "answer": "4 workers",
+    "reference": {
+      "document": "architecture",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "architecture-5-2",
+    "question": "According to the documents, tell me about architecture ingestion queue.",
+    "answer": "4 workers",
+    "reference": {
+      "document": "architecture",
+      "page": 5
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "operations-1-0",
+    "question": "What is the operations critical response?",
+    "answer": "15 minutes",
+    "reference": {
+      "document": "operations",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "operations-1-1",
+    "question": "Find the documented operations critical response and cite the source.",
+    "answer": "15 minutes",
+    "reference": {
+      "document": "operations",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "operations-1-2",
+    "question": "According to the documents, tell me about operations critical response.",
+    "answer": "15 minutes",
+    "reference": {
+      "document": "operations",
+      "page": 1
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "operations-2-0",
+    "question": "What is the operations escalation window?",
+    "answer": "2 hours",
+    "reference": {
+      "document": "operations",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "operations-2-1",
+    "question": "Find the documented operations escalation window and cite the source.",
+    "answer": "2 hours",
+    "reference": {
+      "document": "operations",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "operations-2-2",
+    "question": "According to the documents, tell me about operations escalation window.",
+    "answer": "2 hours",
+    "reference": {
+      "document": "operations",
+      "page": 2
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "operations-3-0",
+    "question": "What is the operations satisfaction target?",
+    "answer": "92%",
+    "reference": {
+      "document": "operations",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "operations-3-1",
+    "question": "Find the documented operations satisfaction target and cite the source.",
+    "answer": "92%",
+    "reference": {
+      "document": "operations",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "operations-3-2",
+    "question": "According to the documents, tell me about operations satisfaction target.",
+    "answer": "92%",
+    "reference": {
+      "document": "operations",
+      "page": 3
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "operations-4-0",
+    "question": "What is the operations handoff time?",
+    "answer": "09:00 UTC",
+    "reference": {
+      "document": "operations",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "operations-4-1",
+    "question": "Find the documented operations handoff time and cite the source.",
+    "answer": "09:00 UTC",
+    "reference": {
+      "document": "operations",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "operations-4-2",
+    "question": "According to the documents, tell me about operations handoff time.",
+    "answer": "09:00 UTC",
+    "reference": {
+      "document": "operations",
+      "page": 4
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "operations-5-0",
+    "question": "What is the operations review cadence?",
+    "answer": "weekly",
+    "reference": {
+      "document": "operations",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "operations-5-1",
+    "question": "Find the documented operations review cadence and cite the source.",
+    "answer": "weekly",
+    "reference": {
+      "document": "operations",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "operations-5-2",
+    "question": "According to the documents, tell me about operations review cadence.",
+    "answer": "weekly",
+    "reference": {
+      "document": "operations",
+      "page": 5
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "finance-1-0",
+    "question": "What is the finance quarterly revenue?",
+    "answer": "$2,400,000",
+    "reference": {
+      "document": "finance",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "finance-1-1",
+    "question": "Find the documented finance quarterly revenue and cite the source.",
+    "answer": "$2,400,000",
+    "reference": {
+      "document": "finance",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "finance-1-2",
+    "question": "According to the documents, tell me about finance quarterly revenue.",
+    "answer": "$2,400,000",
+    "reference": {
+      "document": "finance",
+      "page": 1
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "finance-2-0",
+    "question": "What is the finance operating expenses?",
+    "answer": "$1,680,000",
+    "reference": {
+      "document": "finance",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "finance-2-1",
+    "question": "Find the documented finance operating expenses and cite the source.",
+    "answer": "$1,680,000",
+    "reference": {
+      "document": "finance",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "finance-2-2",
+    "question": "According to the documents, tell me about finance operating expenses.",
+    "answer": "$1,680,000",
+    "reference": {
+      "document": "finance",
+      "page": 2
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "finance-3-0",
+    "question": "What is the finance gross margin?",
+    "answer": "72%",
+    "reference": {
+      "document": "finance",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "finance-3-1",
+    "question": "Find the documented finance gross margin and cite the source.",
+    "answer": "72%",
+    "reference": {
+      "document": "finance",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "finance-3-2",
+    "question": "According to the documents, tell me about finance gross margin.",
+    "answer": "72%",
+    "reference": {
+      "document": "finance",
+      "page": 3
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "finance-4-0",
+    "question": "What is the finance cash runway?",
+    "answer": "18 months",
+    "reference": {
+      "document": "finance",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "finance-4-1",
+    "question": "Find the documented finance cash runway and cite the source.",
+    "answer": "18 months",
+    "reference": {
+      "document": "finance",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "finance-4-2",
+    "question": "According to the documents, tell me about finance cash runway.",
+    "answer": "18 months",
+    "reference": {
+      "document": "finance",
+      "page": 4
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "finance-5-0",
+    "question": "What is the finance budget variance?",
+    "answer": "4%",
+    "reference": {
+      "document": "finance",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "finance-5-1",
+    "question": "Find the documented finance budget variance and cite the source.",
+    "answer": "4%",
+    "reference": {
+      "document": "finance",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "finance-5-2",
+    "question": "According to the documents, tell me about finance budget variance.",
+    "answer": "4%",
+    "reference": {
+      "document": "finance",
+      "page": 5
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "research-1-0",
+    "question": "What is the research participant count?",
+    "answer": "24 participants",
+    "reference": {
+      "document": "research",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "research-1-1",
+    "question": "Find the documented research participant count and cite the source.",
+    "answer": "24 participants",
+    "reference": {
+      "document": "research",
+      "page": 1
+    },
+    "split": "development"
+  },
+  {
+    "id": "research-1-2",
+    "question": "According to the documents, tell me about research participant count.",
+    "answer": "24 participants",
+    "reference": {
+      "document": "research",
+      "page": 1
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "research-2-0",
+    "question": "What is the research interview duration?",
+    "answer": "45 minutes",
+    "reference": {
+      "document": "research",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "research-2-1",
+    "question": "Find the documented research interview duration and cite the source.",
+    "answer": "45 minutes",
+    "reference": {
+      "document": "research",
+      "page": 2
+    },
+    "split": "development"
+  },
+  {
+    "id": "research-2-2",
+    "question": "According to the documents, tell me about research interview duration.",
+    "answer": "45 minutes",
+    "reference": {
+      "document": "research",
+      "page": 2
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "research-3-0",
+    "question": "What is the research source preference?",
+    "answer": "83%",
+    "reference": {
+      "document": "research",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "research-3-1",
+    "question": "Find the documented research source preference and cite the source.",
+    "answer": "83%",
+    "reference": {
+      "document": "research",
+      "page": 3
+    },
+    "split": "development"
+  },
+  {
+    "id": "research-3-2",
+    "question": "According to the documents, tell me about research source preference.",
+    "answer": "83%",
+    "reference": {
+      "document": "research",
+      "page": 3
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "research-4-0",
+    "question": "What is the research search frequency?",
+    "answer": "8 searches per day",
+    "reference": {
+      "document": "research",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "research-4-1",
+    "question": "Find the documented research search frequency and cite the source.",
+    "answer": "8 searches per day",
+    "reference": {
+      "document": "research",
+      "page": 4
+    },
+    "split": "development"
+  },
+  {
+    "id": "research-4-2",
+    "question": "According to the documents, tell me about research search frequency.",
+    "answer": "8 searches per day",
+    "reference": {
+      "document": "research",
+      "page": 4
+    },
+    "split": "paraphrase check"
+  },
+  {
+    "id": "research-5-0",
+    "question": "What is the research primary pain point?",
+    "answer": "fragmented knowledge",
+    "reference": {
+      "document": "research",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "research-5-1",
+    "question": "Find the documented research primary pain point and cite the source.",
+    "answer": "fragmented knowledge",
+    "reference": {
+      "document": "research",
+      "page": 5
+    },
+    "split": "development"
+  },
+  {
+    "id": "research-5-2",
+    "question": "According to the documents, tell me about research primary pain point.",
+    "answer": "fragmented knowledge",
+    "reference": {
+      "document": "research",
+      "page": 5
+    },
+    "split": "paraphrase check"
+  }
+]
