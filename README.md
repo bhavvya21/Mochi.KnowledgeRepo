@@ -2,6 +2,48 @@
 
 Mochi now has a hosted backend. Its public interface remains at the existing Sites URL; private document operations use an automatically created browser workspace. ChatGPT sign-in is not required. The user chose cited source excerpts until an AI provider is connected.
 
+## Screenshots
+
+[Open the hosted Mochi app](https://mochi-knowledge-garden-261116.me-ed0430495.chatgpt.site)
+
+Screenshots show the interface, fictional sample vendor data, and synthetic evaluation questions.
+
+### Ask Mochi home
+
+![Ask Mochi home](docs/screenshots/01-ask-mochi.png)
+
+### Suggested questions and workspace overview
+
+![Suggested questions and workspace overview](docs/screenshots/02-question-prompts.jpg)
+
+### Knowledge overview and sample proposals
+
+![Knowledge overview and sample proposals](docs/screenshots/03-knowledge-overview.jpg)
+
+### Knowledge library
+
+![Knowledge library](docs/screenshots/04-knowledge-library.jpg)
+
+### Documents and collections
+
+![Documents and collections](docs/screenshots/05-document-list.jpg)
+
+### Vendor comparison
+
+![Vendor comparison](docs/screenshots/06-vendor-comparison.jpg)
+
+### Vendor cost breakdown with source citations
+
+![Vendor cost breakdown with source citations](docs/screenshots/07-cost-breakdown.jpg)
+
+### Modeled vendor cost chart
+
+![Modeled vendor cost chart](docs/screenshots/08-cost-chart.jpg)
+
+### Evaluation lab benchmark questions
+
+![Evaluation lab benchmark questions](docs/screenshots/09-evaluation-lab.jpg)
+
 ## Runtime
 
 - React frontend and a Cloudflare Worker API, deployed together through Sites.
